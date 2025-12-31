@@ -24,6 +24,19 @@ The weights were trained using the scripts in this repository
 (`build_packed_shards.py` + `pretrain_smollm3.py`) on ~19.8B tokens
 of packed text data.
 
+### Code provenance
+
+This project builds on components from the Hugging Face Transformers library.
+
+- The model implementation follows the smolLM3 architecture as implemented
+  in Transformers, with modifications to the configuration (e.g. depth/width)
+  to target ~500M parameters.
+- The tokenizer used is the standard smolLM3 tokenizer provided via
+  Transformers and is included here for convenience and reproducibility.
+
+All reused components are covered by the Apache License 2.0, and this
+repository is released under the same license.
+
 ### Repository Structure
 
 ```
