@@ -15,7 +15,7 @@ The overall goal was to keep the pipeline simple, reproducible, and easy to reas
 
 The pretrained model weights are available on Hugging Face:
 
-**Hugging Face Hub:** https://huggingface.co/<your-username>/<your-model-repo>
+**Hugging Face Hub:** https://huggingface.co/Xv-yn/smollm3-500m
 
 This repository contains the model checkpoints produced by the training
 pipeline in this repo, along with the corresponding tokenizer files.
